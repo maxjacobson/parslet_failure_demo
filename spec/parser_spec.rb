@@ -1,6 +1,3 @@
-require 'my_parser'
-require "parslet/rig/rspec"
-
 describe MyParser do
   let(:parser) { described_class.new }
   it "works" do
